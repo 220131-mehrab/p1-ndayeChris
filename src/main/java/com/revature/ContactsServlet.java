@@ -50,7 +50,7 @@ public class ContactsServlet extends HttpServlet {
         Contacts newContact = mapper.readValue(req.getInputStream(), Contacts.class);
         System.out.println(newContact);
         try {
-            PreparedStatement stmt = connection.prepareStatement("insert into contacts values (?, ?)");
+            PreparedStatement stmt = connection.prepareStatement("insert into contacts values (?, ?, ?, ?)");
             stmt.setInt(1, newContact.getContact_id());
             stmt.setString(2, newContact.getName());
             stmt.setString(2, newContact.getEmail());

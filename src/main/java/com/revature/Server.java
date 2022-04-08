@@ -23,8 +23,8 @@ public class Server {
         //"jdbc:h2:mem:test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;INIT=runscript from 'classpath:schema.sql'";
         //new DatabaseController().BuildDatabase();
         // Default and Books Servlets
-        server.addServlet("", "defaultServlet", new DefServlet()).addMapping("/*");
-        server.addServlet("", "booksServlet", new ContactsServlet(connection)).addMapping("/books");
+        server.addServlet("", "defServlet", new DefServlet()).addMapping("/*");
+        server.addServlet("", "contactsServlet", new ContactsServlet(connection)).addMapping("/books");
     }
 
 
