@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact List</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact List</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>Welcome to my Contact List App</h1>
+        <form action="/contacts" method="post">
+            Id: <input type="number" name="contactId" id="contactId"/>
+            Name: <input type="text" name="name" id="name"/>
+            Email: <input type="text" name="email" id="email"/>
+            PhoneNumber: <input type="text" name="phoneNumber" id="phoneNumber"/>
+            <button type="button" onclick="postContact()">Add Contact</button>
+        </form>
+
+        <div id="contacts"></div>
+
+        <script src="main.js"></script>
+    </body>
 </html>
