@@ -18,19 +18,28 @@ I'm a young man trying to get phone numbers or emails of the people I meet in pe
 Technologies
 *************************************************************
 . Javascript
+
 . html
+
 . css
+
 . Java
+
 . gradle
+
 . H2 Database
+
 . Servlet
+
 . Intellij
+
 . Visual Studio Code
+
 ***********************************************************
 
 
 Features
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+....................................
 . Display a list of contacts
 . Add a new contact
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+...............................
